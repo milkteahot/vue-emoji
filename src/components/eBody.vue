@@ -1,8 +1,24 @@
 <template>
    <div id="columns">
       <figure>
-        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg">
-        <figcaption>Cinderella wearing European fashion of the mid-1860’s</figcaption>
+        <img src="http://mblogthumb2.phinf.naver.net/MjAxODAzMDNfOCAg/MDAxNTIwMDQ4OTU2NTE5.UQnF4whjRdhKDSjJZN7FU-oqhnd_rWmze92ffRz8XJsg._FkO9Gaho_RDHCyIrpsUF_-LZVHvzC_AYl9TZnfnjYwg.JPEG.wjdgoxhxh/downloadfile.jpeg?type=w800">
+        
+        <figcaption>
+        <div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div>
+        </figcaption>
       </figure>
  
       <figure>
@@ -12,50 +28,143 @@
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/belle.jpg">
-        <figcaption>Belle, based on 1770’s French court fashion</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+      <div class=heart>               
+      <i class="fas fa-heart"></i></div>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mulan_2.jpg">
-        <figcaption>Mulan, based on the Ming Dynasty period</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sleeping-beauty.jpg">
-        <figcaption>Sleeping Beauty, based on European fashions in 1485</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/pocahontas_2.jpg">
-        <figcaption>Pocahontas based on 17th century Powhatan costume</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/snow-white.jpg">
-        <figcaption>Snow White, based on 16th century German fashion</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>    
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ariel.jpg">
-        <figcaption>Ariel wearing an evening gown of the 1890’s</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>
  
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/tiana.jpg">
-        <figcaption>Tiana wearing the <i>robe de style</i> of the 1920’s</figcaption>
+        <figcaption><div class="header">Title </div>
+        <div class="meta">
+          <a>by Friends</a></div>
+        <div class="extra content">
+                        <span class="right floated">
+                      
+      <i class="fas fa-heart"></i>
+   
+      50 likes
+    </span></div> 
+        
+        <div class="description">
+                    
+        </div></figcaption>
       </figure>   
     </div>
 </template>
 
 <script>
+
 export default {
+  
     
 }
 </script>
 
 <style>
 #columns {
-    column-width: 350px;
+    column-width: 250px;
     column-gap: 15px;
     margin-top: 10px;
 }
@@ -64,11 +173,17 @@ export default {
     display: inline-block;
     /* border: 1px solid rgba(0,0,0,0.2); */
     border-radius: 10px;
-    margin: 0;
+    margin: 1;
     margin-bottom: 15px;
     padding: 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+    
 
+}
+
+#columns figure:hover {
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  transform: scale(1.1);
+    transition: 0.4s;
 }
 
 #columns figure img {
@@ -81,7 +196,69 @@ export default {
     margin-top:11px;
 }
 
+.header {
+  display: flex;
+  margin: '';
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
 
+  font-weight: bold;
+  font-size: 1.28571429em;
+  /* margin-top: -0.21425em; */
+  line-height: 1.28571429em;
+
+  /* margin-top: 0.5em; */
+}
+
+.meta {
+  /* margin-top: 0.5em; */
+
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.4);
+
+  float: left;
+}
+
+.description {
+  clear: both;
+  color: rgba(0, 0, 0, 0.68);
+  margin-top: 0.5em;
+  text-align:center;
+
+}
+
+.extra {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.05) !important; */
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+
+
+}
+
+.fas.fa-heart {
+  color:red;
+
+}
+
+.fas.fa-heart:hover {
+  transform: scale(2);
+    transition: 1s;
+}
+
+.right {
+  float: right;
+}
+
+.heart2 {
+
+}
 /* .card-row {
   display: flex;
   justify-content: center;
